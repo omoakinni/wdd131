@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,7 @@
     <link rel="stylesheet" href="styles/places.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script defer src="scripts/places.js"></script>
     <title>Abuja Nigeria | Weather Data</title>
 </head>
@@ -21,9 +20,9 @@
     <main>
     <section class="hero">
         <picture>
-            <source media="(max-width: 1200px)" srcset="/images/images/gurara-water-falls.webp">
-            <source media="(min-width: 600px) and (max-width: 1199px)" srcset="/images/gurara-water-falls.webp">
-            <source media="(min-width: 1200px)" srcset="/images/images/gurara-water-falls.webp">
+            <source srcset="/images/images/gurara-water-falls.webp" media="(max-width: 1000px)" >
+            <source srcset="/images/gurara-water-falls.webp"  media="(min-width: 600px) and (max-width: 1199px)">
+            <source srcset="/images/images/gurara-water-falls.webp" media="(min-width: 1200px)">
             <img src="/images/gurara-water-falls.webp" alt=" image of Nigeria">
         </picture>
     </section>
@@ -36,7 +35,7 @@
             <p>Area: <span id="area">923,768 sq km</span></p>
             <p>Population: <span id="population">202,915,907</span></p>
             <p>Capital: <span id="capital">Abuja</span></p>
-            <p>Languages: <span id="languages">English (official), Hausa, Yoruba, Igbo</span></p>
+            <p>Languages: <span id="languages">English, Hausa, Yoruba, Igbo</span></p>
             <p>Currency: <span id="currency">Nigerian Naira (NGN)</span></p>
             <p>Time Zone: <span id="timeZone">West Africa Time (WAT) UTC+1</span></p>
             <p>Calling Code: <span id="callingCode">+234</span></p>
@@ -47,7 +46,7 @@
                 <h2>Weather</h2>
                 <img src="/images/weather.svg" alt="">
             </div>
-            <p>Temperature: <span id="temperature">32°F</span></p>
+            1<p>Temperature: <span id="temperature">32°F</span></p>
             <p>Wind Speed: <span id="windSpeed">10 mph</span></p>
             <p>Wind Chill: <span id="windChill">Calculating...</span></p>
         </section>
