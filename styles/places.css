@@ -225,7 +225,7 @@ footer
 }
 .weather-head h2::after 
 {
-  content: "🌫️";
+  content: "";
   position: absolute;
   right: 0;
   top: 0;

@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const temperature = 32; // in Fahrenheit
 const windSpeed = 10; // in mph
   
+
   // Function to calculate the wind chill factor
 function calculateWindChill(temp, speed) {
   return (
@@ -11,7 +12,7 @@ function calculateWindChill(temp, speed) {
     35.75 * Math.pow(speed, 0.16) +
     0.4275 * temp * Math.pow(speed, 0.16)
     ).toFixed(2);
-  }
+}
   
   // Function to display the wind chill
 function displayWindChill() {
@@ -21,8 +22,8 @@ const windChillElement = document.getElementById('windChill');
       windChillElement.textContent = `${windChill}°F`;
     } else {
         windChillElement.textContent = 'N/A';
-      }
     }
+}
   
     // Display the static temperature and wind speed values
 document.getElementById('temperature').textContent = `${temperature}°F`;
@@ -36,8 +37,7 @@ const currentYearSpan = document.getElementById('currentYear');
 const currentYear = new Date().getFullYear();
   if (currentYearSpan) {
       currentYearSpan.textContent = currentYear;
-      console.log(`Current Year: ${currentYear}`);
-  } else 
+      console.log(`Current Year: ${currentYear}`);} else 
   {
       console.error('Element with id "currentYear" not found.');
 }
