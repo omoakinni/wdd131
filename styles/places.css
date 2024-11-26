@@ -2,9 +2,9 @@
 :root {
   --primary-color: #ec58a2;
   --text-color: #ffff;
-  --text-color-secondary: #333333;
+  --text-color-secondary: #074709;
   /* --primary-background: #364ceb; */
-  --primary-background: #1fd655;
+  --primary-background: #198b3b;
 }
 * {
   padding: 0;
@@ -14,7 +14,7 @@
 body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  padding: 0;
+  padding: 10px;
   margin: 0;
 }
   
@@ -32,12 +32,12 @@ h1 {
 }
   
 .hero {
-  background-image: url(/images/gurara-water-falls.webp);
+  background-image: url(/images/zuma_rock.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh; /* Use vh unit instead of % */
-  padding: 20px;
+  height:0; /* Use vh unit instead of % */
+  padding:45%;
 }
   
 .data, .weather {
@@ -153,7 +153,7 @@ footer p {
 }
 
 header {
-  background-color: #333;
+  background-color: #063415;
   color: #fff;
   padding: 1em;
   text-align: center;
@@ -208,7 +208,7 @@ main {
 
 footer
 {
-  background-color: #333;
+  background-color: #0e3605;
   color: #fff;
   padding: 1em;
   text-align: center;
