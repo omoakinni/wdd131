@@ -6,7 +6,7 @@ const windSpeed = 10; // in mph
 
   // Function to calculate the wind chill factor
 function calculateWindChill(temp, speed) {
-  return (
+  return ( 
     35.74 +
     0.6215 * temp -
     35.75 * Math.pow(speed, 0.16) +

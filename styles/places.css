@@ -36,8 +36,8 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:0; /* Use vh unit instead of % */
-  padding:45%;
+  height:0vh; /* Use vh unit instead of % */
+  padding:50%;
 }
   
 .data, .weather {
@@ -45,7 +45,7 @@ h1 {
   width: 25%;
   background-color: var(--text-color);
   opacity: 0.8;
-  height: 50%;
+  height: 65%;
 }
 
 .data {
@@ -60,14 +60,15 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
+  margin: 7%;
 }
 
 .weather{
-  height: 30%;
+  height: 50%;
   position: absolute;
-  bottom: 15%;
+  bottom: 3%;
   right:3%;
-
+  
 }
   
 .weather p{
@@ -75,7 +76,7 @@ h1 {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
-}
+  margin: 9%;}
 
 .weather span, .data span {
   font-weight: normal;
