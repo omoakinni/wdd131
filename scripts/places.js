@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Static values for temperature and wind speed
 const temperature = 32; // in Fahrenheit
-const windSpeed = 10; // in mph
+const wind = 10; // in mph
   
 
   // Function to calculate the wind chill factor
@@ -17,8 +17,8 @@ function calculateWindChill(temp, speed) {
   // Function to display the wind chill
 function displayWindChill() {
 const windChillElement = document.getElementById('windChill');
-  if (temperature <= 50 && windSpeed > 3) {
-    const windChill = calculateWindChill(temperature, windSpeed);
+  if (temperature <= 50 && wind > 3) {
+    const windChill = calculateWindChill(temperature, wind);
       windChillElement.textContent = `${windChill}°F`;
     } else {
         windChillElement.textContent = 'N/A';
@@ -27,7 +27,7 @@ const windChillElement = document.getElementById('windChill');
   
     // Display the static temperature and wind speed values
 document.getElementById('temperature').textContent = `${temperature}°F`;
-document.getElementById('windSpeed').textContent = `${windSpeed} mph`;
+document.getElementById('wind').textContent = `${wind} km/h`;
   
     // Call the function to display the wind chill
     displayWindChill();
