@@ -117,7 +117,7 @@ textarea {
 
 .features input[type="checkbox"]:checked + label:before {
   content: "☑";
-  color: #333;
+  color: #353535;
   background-color: #fff;
 }
 
