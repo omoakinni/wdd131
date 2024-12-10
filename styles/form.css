@@ -3,7 +3,7 @@
   --primary-color: #ec58a2;
   --text-color: #ffff;
   --text-color-secondary: #333333;
-  --primary-background: purple;
+  --primary-background: rgb(0, 0, 0);
   --primary-background-main: #a181ae;
 }
 * {
@@ -24,13 +24,13 @@ header {
   color: var(--text-color);
 }
 main {
-  width: 70%;
+  width: 50%;
   margin: 10px auto;
   padding: 20px;
   background-color: var(--primary-background-main);
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 span {
@@ -53,7 +53,8 @@ textarea {
   columns: 12;
 }
 #written-review {
-  height: 150px;
+  height: 100px;
+  width: 100%;
 }
 select,
 input,
@@ -62,6 +63,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   outline: none;
+  width: 100%;
 }
 
 .rating {
@@ -119,17 +121,20 @@ textarea {
   background-color: #fff;
 }
 
+
+
 input[type="submit"] {
-  background-color: #ccc;
-  color: black;
-  padding: 10px 20px;
+  background-color: #691955;
+  color: rgb(255, 255, 255);
+  padding: 30px 25px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  width: 100%;
 }
 
 input[type="submit"]:hover {
-  background-color: gray;
+  background-color: rgb(210, 188, 188);
 }
 
 footer {
